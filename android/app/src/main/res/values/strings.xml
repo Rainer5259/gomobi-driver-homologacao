@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Sig - Motorista</string>
+    <string name="facebook_app_id" translatable="false">1158587228017828</string>
+    <string name="google_maps_api_key" translatable="false">AIzaSyCnQTHEz0xQNdh39RPYZnvnD86Ifou196Y</string>
+    <string name="google_places_api_key" translatable="false">AIzaSyCnQTHEz0xQNdh39RPYZnvnD86Ifou196Y</string>
+    <string name="package_name" translatable="false">top.gomobi.provider</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <!-- Display over other apps dialog -->
+    <string name="over_other_apps_title">Permitir que o seja exibido sobre outros apps?</string>
+    <string name="over_other_apps_message">Essa permissão é importante para que você possa usar todas as funcionalidades do app.</string>
+    <string name="display_over_other_apps">Sig - Motorista está sendo exibido sobre outros apps</string>
+    <string name="display_over_other_apps_message">Se você não quiser que Go Mobi - Motorista use essa função, clique para abrir as configurações e desative-a.</string>
+    <string name="needs_permission_question">Sig - Motorista precisa de permissão</string>
+
+    <string name="socket_address" translatable="false">http://app.gomobi.top</string>
+    <string name="socket_port"  translatable="false">6001</string>
+
+</resources>

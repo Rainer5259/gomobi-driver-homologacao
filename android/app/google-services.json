@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "1039965384747",
+    "project_id": "go-mobi-402020",
+    "storage_bucket": "go-mobi-402020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039965384747:android:d71a62a14ca8680a7b3a6e",
+        "android_client_info": {
+          "package_name": "top.gomobi.provider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039965384747-havmrlb85ra6h18kejtibob1mb39d4qi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "top.gomobi.provider",
+            "certificate_hash": "253fc35d0585c598dd350c4e31b8b3972768d022"
+          }
+        },
+        {
+          "client_id": "1039965384747-hfprjoeo1r264i7uee6ha9knro770jrg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "top.gomobi.provider",
+            "certificate_hash": "513e41a5081de2a6684974f560fbb1ef7eec14cb"
+          }
+        },
+        {
+          "client_id": "1039965384747-tv7bcjph50ebq7a3b5ugucsbjjv3jg21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "top.gomobi.provider",
+            "certificate_hash": "6e599a3b524d360e9097875b80a1fe5abc1550dc"
+          }
+        },
+        {
+          "client_id": "1039965384747-amim47sea2hq37pii96frnvknut8rgh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyNKnQqDiX8RuU06XveDYOJ3WUI_FGQ2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039965384747-amim47sea2hq37pii96frnvknut8rgh0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1039965384747-2bpto52p91ufqq5au916937td8cegghc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "top.gomobi.user"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039965384747:android:a7c930b107aa5df57b3a6e",
+        "android_client_info": {
+          "package_name": "top.gomobi.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039965384747-00m0ov1db4kbjs62dve1ekmoi2bnauja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "top.gomobi.user",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1039965384747-hs350in4281r0t33ja21u45kvgs516lt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "top.gomobi.user",
+            "certificate_hash": "cc888cd47a6e7d6bf31e9099a6e5b785730e4bb0"
+          }
+        },
+        {
+          "client_id": "1039965384747-s71shuj4r76m35uoqroc09pfr22tsut6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "top.gomobi.user",
+            "certificate_hash": "343dd391cc218dc4175cefdf280f0e66e9c8e677"
+          }
+        },
+        {
+          "client_id": "1039965384747-amim47sea2hq37pii96frnvknut8rgh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyNKnQqDiX8RuU06XveDYOJ3WUI_FGQ2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039965384747-amim47sea2hq37pii96frnvknut8rgh0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1039965384747-2bpto52p91ufqq5au916937td8cegghc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "top.gomobi.user"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

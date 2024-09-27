@@ -1,0 +1,32 @@
+diff --git a/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.cpp b/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.cpp
+index 9986279..911254d 100644
+--- a/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.cpp
++++ b/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.cpp
+@@ -2229,8 +2229,7 @@ static float YGDistributeFreeSpaceSecondPass(
+         depth,
+         generationCount);
+     node->setLayoutHadOverflow(
+-        node->getLayout().hadOverflow() |
+-        currentRelativeChild->getLayout().hadOverflow());
++        node->getLayout().hadOverflow() ||        currentRelativeChild->getLayout().hadOverflow());
+   }
+   return deltaFreeSpace;
+ }
+diff --git a/node_modules/react-native/index.js b/node_modules/react-native/index.js
+index e594bbe..101b23c 100644
+--- a/node_modules/react-native/index.js
++++ b/node_modules/react-native/index.js
+@@ -708,12 +708,7 @@ if (__DEV__) {
+   Object.defineProperty(module.exports, 'Picker', {
+     configurable: true,
+     get() {
+-      invariant(
+-        false,
+-        'Picker has been removed from React Native. ' +
+-          "It can now be installed and imported from '@react-native-picker/picker' instead of 'react-native'. " +
+-          'See https://github.com/react-native-picker/picker',
+-      );
++      return require('@react-native-picker/picker')
+     },
+   });
+   /* $FlowFixMe[prop-missing] This is intentional: Flow will error when
