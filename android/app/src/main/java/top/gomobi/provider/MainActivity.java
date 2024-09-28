@@ -28,8 +28,8 @@ public class MainActivity extends ReactActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-      super.onCreate(savedInstanceState);
-      RNBootSplash.init(R.drawable.splash_screen, MainActivity.this); // <- display the generated bootsplash.xml drawable over our MainActivity
+       RNBootSplash.init(this, R.style.BootTheme);
+    super.onCreate(savedInstanceState);
     }
 
     public static class MainActivityDelegate extends ReactActivityDelegate {
