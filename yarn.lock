@@ -2046,6 +2046,16 @@
   resolved "https://registry.npmjs.org/@react-native-community/geolocation/-/geolocation-3.0.4.tgz#2ba78ab5921441556ee38a4ffc5d9f27ce08c77d"
   integrity sha512-zzf+DISPwEpMH25tR33hgVuy89emYYTrZQarbCSwFOU6fH9MNxnmsRPmdpuNI9YvnjMtEj5kzDrGyqBhx86n6A==
 
+"@react-native-community/geolocation@^2.0.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@react-native-community/geolocation/-/geolocation-2.1.0.tgz#3ed15a4a357104a53c0bb824f47b59cb2a65b6ba"
+  integrity sha512-xDAl5S85cRVGeUxpjX/+5lyVFNHHArXN18NQnfzCLxxiVxtC2sKENuLE4J0kjAlD5lEp+IXVqfd3iGQfo99tkA==
+
+"@react-native-community/google-signin@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@react-native-community/google-signin/-/google-signin-5.0.0.tgz#d1d89c697cc214c10017fa283817e84bd03b2d76"
+  integrity sha512-MvFHImmtlmE1kJZgZ9XaULm/OBuQ/AQWOCPr3NzYTUv2cCqyGwfFrealo5PS/fuL/InCGcfqK1k/1dZ+67Hjmg==
+
 "@react-native-community/netinfo@^9.3.7":
   version "9.5.0"
   resolved "https://registry.npmjs.org/@react-native-community/netinfo/-/netinfo-9.5.0.tgz#93663bbb105feb8f729b8f0271ee06ffc009f024"
@@ -8634,12 +8644,13 @@ react-native-fbsdk@^2.0.0:
     "@react-native-community/async-storage" "^1.12.0"
     "@react-native-community/datetimepicker" "^6.7.1"
     "@react-native-community/geolocation" "3.0.4"
+    "@react-native-community/google-signin" "^5.0.0"
     "@react-native-community/netinfo" "^9.3.7"
     "@react-native-community/push-notification-ios" "^1.2.2"
     "@react-native-firebase/app" "16.4.6"
     "@react-native-firebase/auth" "16.4.6"
     "@react-native-firebase/messaging" "16.4.6"
-    "@react-native-google-signin/google-signin" "^12.1.0"
+    "@react-native-google-signin/google-signin" "^10.0.1"
     "@react-native-picker/picker" "1.16.8"
     apisauce "2.1.6"
     axios "1.2.1"
@@ -8680,6 +8691,7 @@ react-native-fbsdk@^2.0.0:
     react-native-country-picker-modal "^2.0.0"
     react-native-datepicker "^1.6.0"
     react-native-device-info "10.3.0"
+    react-native-document-picker "^9.3.1"
     react-native-drawer "^2.5.1"
     react-native-elements "^3.0.0-alpha.1"
     react-native-exception-handler "^2.10.10"
