@@ -127,8 +127,8 @@ android {
         applicationId "top.gomobi.provider"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 26
-        versionName "4.0.26"
+        versionCode 27
+        versionName "4.0.27"
         multiDexEnabled true
         missingDimensionStrategy 'react-native-camera', 'general'
         buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", "true"
