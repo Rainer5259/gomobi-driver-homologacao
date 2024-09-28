@@ -219,7 +219,7 @@ dependencies {
     implementation project(':react-native-version-number')
     // implementation project(':react-native-restart')
     implementation project(':react-native-exception-handler')
-    implementation project(':react-native-document-picker')
+    // implementation project(':react-native-document-picker')
     implementation project(':react-native-gesture-handler')
 
     if (enableHermes) {
