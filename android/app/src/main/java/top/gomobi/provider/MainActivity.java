@@ -4,10 +4,9 @@ import com.facebook.react.ReactActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import com.zoontek.rnbootsplash.RNBootSplash;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
-import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
+import com.zoontek.rnbootsplash.RNBootSplash;
 
 public class MainActivity extends ReactActivity {
 
@@ -30,7 +29,7 @@ public class MainActivity extends ReactActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
-      RNBootSplash.init(R.drawable.bootsplash, MainActivity.this); // <- display the generated bootsplash.xml drawable over our MainActivity
+      RNBootSplash.init(R.drawable.splash_screen, MainActivity.this); // <- display the generated bootsplash.xml drawable over our MainActivity
     }
 
     public static class MainActivityDelegate extends ReactActivityDelegate {

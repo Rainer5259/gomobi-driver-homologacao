@@ -38,6 +38,8 @@ import com.showlocationservicesdialogbox.LocationServicesDialogBoxPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
+// @react-native-google-signin/google-signin
+import com.reactnativegooglesignin.RNGoogleSigninPackage;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
